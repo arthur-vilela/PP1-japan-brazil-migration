@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -18,9 +18,18 @@ body {
 }
 /* Header */
 header {
-    background-color: darkslategrey;
+    background-color: #A61C41;
 }
 
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+header a {
+    color: #fafafa;
+    text-decoration: none;
+}
 /* Main */
 main {
     background-color: lightblue;
