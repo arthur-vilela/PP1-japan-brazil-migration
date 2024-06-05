@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -5,6 +8,14 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
 /* Header */
 header {
     background-color: darkslategrey;
@@ -13,6 +24,7 @@ header {
 /* Main */
 main {
     background-color: lightblue;
+    flex: 1 0 auto;
 }
 
 /* Footer */
