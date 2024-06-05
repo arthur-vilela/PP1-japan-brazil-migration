@@ -16,9 +16,14 @@ body {
     flex-direction: column;
     font-family: "Roboto", sans-serif;
 }
+
 /* Header */
 header {
     background-color: #A61C41;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -30,6 +35,12 @@ header a {
     color: #fafafa;
     text-decoration: none;
 }
+
+/* Navigation menu */
+nav {
+    display: flex;
+}
+
 /* Main */
 main {
     background-color: lightblue;
@@ -38,5 +49,40 @@ main {
 
 /* Footer */
 footer {
-    background-color: darkblue;
+    background-color: #A61C41;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media query: tablets and larger phones (768px and up) */
+@media screen and (min-width: 768px) {
+    #main-menu {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    #main-menu a:hover {
+        background-color: #fafafa;
+        color: #A61C41;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    li {
+        margin-left: 30px;
+
+    }
+
+    #logo {
+        font-size: 250%;
+    } 
 }
