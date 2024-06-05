@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-direction: column;
 }
 
 h1 {
@@ -38,7 +39,10 @@ header a {
 
 /* Navigation menu */
 nav {
-    display: flex;
+    display: block;
+    color: #fafafa;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 /* Main */
@@ -60,6 +64,10 @@ footer {
 
 /* Media query: tablets and larger phones (768px and up) */
 @media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+    
     #main-menu {
         display: flex;
         justify-content: flex-end;
