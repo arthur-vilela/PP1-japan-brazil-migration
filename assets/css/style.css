@@ -100,17 +100,27 @@ main {
     max-width: 100%;
     height: auto;
 }
+
 /* Footer */
 footer {
     background-color: #A61C41;
-    color: white;
+    color: #fafafa;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+footer i {
+    color: #fafafa;
+}
+
+footer p {
+    font-size: 75%;
+}
 /* Media query: tablets and larger phones (768px and up) */
 @media screen and (min-width: 768px) {
     header {
@@ -141,5 +151,13 @@ footer {
 
     #logo {
         font-size: 250%;
-    } 
+    }
+
+    footer p {
+        font-size: 100%;
+    }
+
+    footer i {
+        font-size: 150%;
+    }
 }
