@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
     background-color: #A61C41;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -43,6 +43,19 @@ nav {
     color: #fafafa;
     text-decoration: none;
     list-style-type: none;
+}
+
+nav > ul > li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Full width banner image */
+.full-width-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
 }
 
 /* Main */
