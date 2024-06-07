@@ -78,7 +78,13 @@ main {
 #history h3 {
     margin-top: 20px;
     margin-bottom: 20px;
+}
 
+#history-intro-image {
+    background: url(../images/history-intro.webp) no-repeat center center/cover;
+    width: 100%;
+    min-height: 300px;
+    padding-top: 20px;
 }
 
 .content {
@@ -224,8 +230,15 @@ footer p {
 
     #history-text div {
         max-width: 500px;
+        min-width: 300px;
+        padding-left: 20px;
     }
 
+    #history-intro-image {
+        background: url(../images/history-intro.webp) no-repeat center center/cover;
+        width: 100%;
+        padding-top: 20px;
+    }
     #history-text a {
         color: black;
         text-decoration: none;
