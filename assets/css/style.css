@@ -45,7 +45,7 @@ nav {
     list-style-type: none;
 }
 
-nav > ul > li {
+nav>ul>li {
     text-decoration: none;
     list-style-type: none;
 }
@@ -61,6 +61,24 @@ nav > ul > li {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+}
+
+#history {
+    padding: 20px;
+}
+
+#history-text a {
+    color: black;
+}
+
+#history h2 {
+    margin-bottom: 20px;
+}
+
+#history h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 .content {
@@ -115,7 +133,23 @@ main {
 
 #reference {
     margin-bottom: 64px;
+    padding: 20px;
+    line-height: 1.5;
 }
+
+#reference h2 {
+    margin-bottom: 20px;
+}
+
+#reference a {
+    text-decoration: none;
+    color: black;
+}
+
+.reference-list {
+    padding-left: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #A61C41;
@@ -136,12 +170,14 @@ footer i {
 footer p {
     font-size: 75%;
 }
+
 /* Media query: tablets and larger phones (768px and up) */
 @media screen and (min-width: 768px) {
+    
     header {
         flex-direction: row;
     }
-    
+
     #main-menu {
         display: flex;
         justify-content: flex-end;
@@ -169,7 +205,8 @@ footer p {
     }
 
     .full-width-banner {
-        height: 75%; /* Reduce height to 75% */
+        height: 75%;
+        /* Reduce height to 75% */
     }
 
     .banner-overlay {
@@ -179,6 +216,30 @@ footer p {
         right: auto;
     }
 
+    #history-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #history-text div {
+        max-width: 500px;
+    }
+
+    #history-text a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #history-text a:hover {
+        background-color: #fafafa;
+        color: #A61C41;
+    }
+
+    .reference-list {
+        padding-left: 0px;
+    }
+
     footer p {
         font-size: 100%;
     }
@@ -186,4 +247,6 @@ footer p {
     footer i {
         font-size: 150%;
     }
+
+
 }
