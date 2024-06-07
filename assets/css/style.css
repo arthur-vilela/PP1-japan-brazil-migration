@@ -51,11 +51,10 @@ nav > ul > li {
 }
 
 /* Full width banner image */
-.full-width-banner {
+#full-width-banner {
     width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
+    height: 500px;
+    background: url(../images/banner.webp) no-repeat center center/cover;
 }
 
 /* Main */
@@ -114,6 +113,9 @@ main {
     height: auto;
 }
 
+#reference {
+    margin-bottom: 64px;
+}
 /* Footer */
 footer {
     background-color: #A61C41;
@@ -164,6 +166,17 @@ footer p {
 
     #logo {
         font-size: 250%;
+    }
+
+    .full-width-banner {
+        height: 75%; /* Reduce height to 75% */
+    }
+
+    .banner-overlay {
+        width: 300px;
+        bottom: 0;
+        left: 0;
+        right: auto;
     }
 
     footer p {
