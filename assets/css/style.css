@@ -232,7 +232,7 @@ footer p {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     #history-text div {
@@ -268,6 +268,17 @@ footer p {
     footer i {
         font-size: 150%;
     }
+}
 
+/* Media query: desktops and large screens (1200px and up) */
+@media screen and (min-width: 768px) {
+    #history {
+        margin: 0 5% 0 5%;
+    }
 
+    #history h2 {
+        font-size: 400%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
 }
