@@ -65,8 +65,6 @@ nav>ul>li {
     background: url(../images/fa65c-imigracao-japonesa-no-brasil.webp) no-repeat left center/cover;
 }
 
-#title-box {}
-
 /* Main */
 main {
     background-color: lightblue;
@@ -103,6 +101,7 @@ main {
 }
 
 /* Timeline */
+
 .timeline {
     margin: 20px 0;
     padding: 20px;
@@ -110,9 +109,6 @@ main {
 }
 
 .timeline .event {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin: 20px 0;
     padding-left: 20px;
     position: relative;
@@ -248,11 +244,12 @@ footer p {
     }
 
     main {
-        padding-left: 20px;
-        padding-right: 20px;
         width: 100vw;
     }
-
+#background-history {
+    background-color: aliceblue;
+    padding-bottom: 50px;
+}
     #history h2 {
         font-size: 300%;
     }
@@ -286,6 +283,25 @@ footer p {
         color: #A61C41;
     }
 
+    /* Timeline */
+    #timeline h2{
+        font-size: 400%;
+    }
+    .event-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .event-content div {
+        width: 500px;
+
+    }
+
+    .event-content img {
+        height: 100%;
+        width: 100%;
+    }
+
     .reference-list {
         padding-left: 0px;
     }
@@ -313,5 +329,21 @@ footer p {
         font-size: 400%;
         margin-bottom: 40px;
         margin-top: 30px;
+    }
+
+    #timeline {
+        padding: 5%;
+    }
+
+    #timeline h3 {
+        font-size: 150%;
+    }
+
+    .timeline .event {
+        padding-left: 0;
+    }
+
+    .event-content div {
+        padding-left: 20px;
     }
 }
