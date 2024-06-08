@@ -20,11 +20,13 @@ body {
 /* Header */
 header {
     background-color: #A61C41;
+    position: fixed;
+    width: 100%;
     padding: 10px 10px 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    flex-direction: column;
+    align-items: center;
+    z-index: 100;
 }
 
 h1 {
@@ -59,12 +61,12 @@ nav>ul>li {
 #banner {
     width: 100%;
     height: 500px;
+    margin-top: 68px;
     background: url(../images/fa65c-imigracao-japonesa-no-brasil.webp) no-repeat left center/cover;
 }
 
-#title-box {
-    
-}
+#title-box {}
+
 /* Main */
 main {
     background-color: lightblue;
@@ -149,6 +151,7 @@ main {
     padding-top: 10px;
     font-size: 75%;
 }
+
 /* References */
 .evidence {
     margin: 20px 0;
@@ -249,9 +252,11 @@ footer p {
         padding-right: 20px;
         width: 100vw;
     }
+
     #history h2 {
         font-size: 300%;
     }
+
     #history-text {
         display: flex;
         flex-direction: row;
@@ -299,9 +304,11 @@ footer p {
     #history {
         margin: 0 5% 0 5%;
     }
-#history-text {
-    justify-content: space-between;
-}
+
+    #history-text {
+        justify-content: space-between;
+    }
+
     #history h2 {
         font-size: 400%;
         margin-bottom: 40px;
