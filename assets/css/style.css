@@ -100,6 +100,7 @@ main {
     padding: 20px;
 }
 
+/* Timeline */
 .timeline {
     margin: 20px 0;
     padding: 20px;
@@ -136,6 +137,19 @@ main {
     max-width: 100%;
 }
 
+.event-content p {
+    padding-top: 20px;
+}
+
+.event-content img {
+    padding-top: 20px;
+}
+
+.legend {
+    padding-top: 10px;
+    font-size: 75%;
+}
+/* References */
 .evidence {
     margin: 20px 0;
 }
