@@ -31,12 +31,13 @@ header {
 
 h1 {
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 h2 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
+    font-size: 250%;
 }
 
 header a {
@@ -108,6 +109,10 @@ main {
     border-left: 2px solid #333;
 }
 
+.timeline h2 {
+    font-size: 200%;
+}
+
 .timeline .event {
     margin: 20px 0;
     padding-left: 20px;
@@ -123,10 +128,10 @@ main {
 .timeline .event::before {
     content: "";
     position: absolute;
-    left: -10px;
+    left: -29px;
     top: 10px;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: #333;
     border-radius: 50%;
 }
@@ -334,9 +339,18 @@ footer p {
     #timeline {
         padding: 5%;
     }
-
-    #timeline h3 {
-        font-size: 150%;
+    .timeline .event::before {
+        content: "";
+        position: absolute;
+        left: -39px;
+        top: 25px;
+        width: 35px;
+        height: 35px;
+        background-color: #333;
+        border-radius: 50%;
+    }
+    .event-title h3 {
+        font-size: 300%;
     }
 
     .timeline .event {
