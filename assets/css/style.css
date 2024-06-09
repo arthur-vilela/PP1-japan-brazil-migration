@@ -40,6 +40,10 @@ h2 {
     font-size: 250%;
 }
 
+h3 {
+    padding-top: 20px;
+}
+
 header a {
     color: #fafafa;
     text-decoration: none;
@@ -70,6 +74,10 @@ nav>ul>li {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+}
+
+p {
+    padding-top: 20px;
 }
 
 #history {
@@ -129,7 +137,7 @@ main {
     content: "";
     position: absolute;
     left: -29px;
-    top: 10px;
+    top: 25px;
     width: 15px;
     height: 15px;
     background-color: #333;
@@ -153,9 +161,22 @@ main {
     font-size: 75%;
 }
 
+/* Cultural Aspects */
+#culture {
+    margin-top: 77px;
+    padding: 20px;
+}
+
+#culture img {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    object-fit: contain;
+}
+
 /* References */
 .evidence {
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .evidence img {
@@ -241,22 +262,17 @@ footer p {
         /* Reduce height to 75% */
     }
 
-    .banner-overlay {
-        width: 300px;
-        bottom: 0;
-        left: 0;
-        right: auto;
-    }
-
     main {
         width: 100vw;
     }
-#background-history {
-    background-color: aliceblue;
-    padding-bottom: 50px;
-}
-    #history h2 {
-        font-size: 300%;
+
+    h2 {
+        font-size: 400%;
+    }
+
+    #background-history {
+        background-color: aliceblue;
+        padding-bottom: 50px;
     }
 
     #history-text {
@@ -289,9 +305,6 @@ footer p {
     }
 
     /* Timeline */
-    #timeline h2{
-        font-size: 400%;
-    }
     .event-content {
         display: flex;
         justify-content: space-between;
@@ -322,6 +335,9 @@ footer p {
 
 /* Media query: desktops and large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+    h3 {
+        font-size: 300%;
+    }
     #history {
         margin: 0 5% 0 5%;
     }
@@ -339,6 +355,7 @@ footer p {
     #timeline {
         padding: 5%;
     }
+
     .timeline .event::before {
         content: "";
         position: absolute;
@@ -349,6 +366,7 @@ footer p {
         background-color: #333;
         border-radius: 50%;
     }
+
     .event-title h3 {
         font-size: 300%;
     }
@@ -359,5 +377,43 @@ footer p {
 
     .event-content div {
         padding-left: 20px;
+    }
+
+    /* Cultural Aspects */
+    #culture {
+        margin-top: 77px;
+        margin: 0 5% 0 5%;
+    }
+
+    #cuisine {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #cuisine div {
+        width: 750px;
+        padding-top: 30px;
+    }
+
+    #art {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    #art div {
+        width: 750px;
+        padding-top: 30px;
+    }
+    #sports {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #sports div {
+        width: 750px;
+        padding-top: 30px;
     }
 }
