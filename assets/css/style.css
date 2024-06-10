@@ -30,8 +30,9 @@ header {
 }
 
 header ul {
-  text-align: right;
+    text-align: right;
 }
+
 h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 900;
@@ -179,6 +180,29 @@ p {
     object-fit: contain;
 }
 
+/* Subscribe */
+#subscribe {
+    margin-top: 77px;
+    padding: 20px;
+}
+
+#subscribe-container {
+    margin-top: 30px;
+    padding: 20px 10px 20px 10px;
+    background-color: #fafafa;
+    box-shadow: 15px 15px #A61C41;
+}
+
+#subscribe-text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#subscribe-text ul {
+    list-style-type: none;
+}
+#subscribe-text ul li + li {
+    margin-top: 10px;
+  }
 /* References */
 .evidence {
     margin-top: 20px;
@@ -252,7 +276,6 @@ footer p {
     ul {
         display: flex;
         list-style-type: none;
-        padding-right: ;
     }
 
     li {
@@ -345,9 +368,11 @@ footer p {
     header {
         height: 80px;
     }
+
     h3 {
         font-size: 300%;
     }
+
     #history {
         margin: 0 5% 0 5%;
     }
@@ -418,11 +443,13 @@ footer p {
         width: 750px;
         padding-top: 30px;
     }
+
     #sports {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     #sports div {
         width: 750px;
         padding-top: 30px;
