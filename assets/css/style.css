@@ -450,6 +450,20 @@ footer p {
     #history-content-bottom > div {
         width: 500px;
     }
+
+    /* Subscribe */
+    #subscribe-container {
+        flex-direction: row;
+        margin-top: 30px;
+        padding: 20px;
+        justify-content: space-between;
+    }
+    
+    #subscribe-text {
+        width: 100%;
+        font-size: 200%;
+        padding: 70px 70px;
+    }
 }
 
 /* Media query: desktops and large screens (1600px and up) */
