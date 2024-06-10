@@ -108,6 +108,18 @@ p {
     margin-bottom: 20px;
 }
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
 
 #history-intro-image {
     width: 100%;
@@ -176,7 +188,7 @@ p {
 /* Cultural Aspects */
 #culture {
     margin-top: 77px;
-    padding: 20px;
+    padding: 77px 0 20px 0;
 }
 
 #culture img {
@@ -363,7 +375,7 @@ footer p {
 
     /* Timeline */
     .content {
-        padding: 0px 10% 0 10%;
+        padding: 70px 10% 0 10%;
     }
 
     .event-content {
@@ -384,7 +396,8 @@ footer p {
 
     /* Culture */
     #culture {
-        padding: 0 10%;
+        margin-top: 0;
+        padding: 77px 10% 20px 10%;
     }
 
     .reference-list {
@@ -394,6 +407,7 @@ footer p {
     /* Subscribe */
     #subscribe {
         padding: 10%;
+        margin-top: 0;
     }
 
     #subscribe-container {
@@ -420,6 +434,10 @@ footer p {
 
 /* Media query: laptops (1280px and up) */
 @media screen and (min-width:1280px) {
+    h2 {
+        margin-top: 0;
+    }
+    /* History */
     #history h3 {
         margin-top: 0;
         padding-top: 0px;
@@ -451,6 +469,9 @@ footer p {
         width: 500px;
     }
 
+    /* Culture */
+
+
     /* Subscribe */
     #subscribe-container {
         flex-direction: row;
@@ -477,11 +498,19 @@ footer p {
     }
 
     #history {
-        padding: 5%;
+        padding: 10%;
     }
 
     #history-content {
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+
+    #history-content-top {
+        justify-content: space-evenly;
+    }
+
+    #history-content-bottom {
+        justify-content: space-evenly;
     }
 
     #history h2 {
@@ -490,16 +519,17 @@ footer p {
         margin-top: 30px;
     }
 
+    /* Timeline */
+
     #timeline {
-        margin: 0 5% 0 5%;
-        padding: 20px;
+        padding: 10%;
     }
 
     .timeline .event::before {
         content: "";
         position: absolute;
         left: -39px;
-        top: 25px;
+        top: 55px;
         width: 35px;
         height: 35px;
         background-color: #333;
@@ -511,17 +541,19 @@ footer p {
     }
 
     .timeline .event {
-        padding-left: 0;
+        padding: 20px 0 0 0;
     }
 
+    .event-content {
+        flex-direction: row;
+    }
     .event-content div {
         padding-left: 20px;
     }
 
     /* Cultural Aspects */
     #culture {
-        margin-top: 77px;
-        margin: 0 5% 0 5%;
+    padding: 10%;
     }
 
     #cuisine {
@@ -531,7 +563,7 @@ footer p {
     }
 
     #cuisine div {
-        width: 750px;
+        width: 500px;
         padding-top: 30px;
     }
 
@@ -543,7 +575,7 @@ footer p {
     }
 
     #art div {
-        width: 750px;
+        width: 500px;
         padding-top: 30px;
     }
 
@@ -554,7 +586,7 @@ footer p {
     }
 
     #sports div {
-        width: 750px;
+        width: 500px;
         padding-top: 30px;
     }
 }
