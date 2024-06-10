@@ -398,37 +398,39 @@
             <h2>Subscribe to our newsletter</h2>
             <div id="subscribe-container">
                 <div id="subscribe-text">
-                    <ul>
-                        <li>Cultural events</li>
-                        <li>Networking</li>
-                        <li>Politics</li>
-                        <li>...and more!</li>
-                    </ul>
+                    <p>Cultural events, networking, <br>politics and more!</p>
+                
                 </div>
                 <div id="subscribe-form-container">
                     <form action="https://formdump.codeinstitute.net" method="post" id="subscribe-form">
-                        <label for="first-name">First name</label><input type="text" name="first-name" id="first-name"
-                            required>
-                        <label for="last-name">Last name</label><input type="text" name="last-name" id="last-name"
-                            required>
-                        <label for="email">E-mail</label><input type="email" name="email" id="email" required>
-                        <p>In which language would you like to receive our emails?</p>
-                        <div class="radio-buttons">
-                            <div>
-                                <label for="portuguese">Portuguese</label>
-                                <input type="radio" name="language" id="portuguese" value="portuguese" checked>
-                            </div>
-                            <div>
-                                <label for="japanese">Japanese</label>
-                                <input type="radio" name="language" id="japanese" value="japanese" required>
-                            </div>
-                            <div>
-                                <label for="english">English</label>
-                                <input type="radio" name="language" id="english" value="english" required>
-                            </div>
-                            <input type="submit" class="subscribe-button" value="Subscribe">
-                        </div>
+                        <div class="form">
+                            <input type="text" class="text-input" name="first-name" id="first-name"
+                                placeholder="Last name" required>
+                            <input type="text" class="text-input" name="last-name" id="last-name"
+                                placeholder="Last name" required>
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Enter your email address" />
 
+                            <div class="radio-buttons">
+                                <div>
+                                    <label for="portuguese">Portuguese</label>
+                                    <input type="radio" name="language" id="portuguese" value="portuguese" checked>
+                                </div>
+                                <div>
+                                    <label for="japanese">Japanese</label>
+                                    <input type="radio" name="language" id="japanese" value="japanese" required>
+                                </div>
+                                <div>
+                                    <label for="english">English</label>
+                                    <input type="radio" name="language" id="english" value="english" required>
+                                </div>
+                            </div>
+                            <button class="form-button">Subscribe</button>
+                            <div class="notice">
+                                <input type="checkbox" name="agreement" id="agreement" value="yes" required>
+                                <span class="agreement">I agree to my email address being stored and uses to recieve
+                                    monthly newsletter.</span>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
