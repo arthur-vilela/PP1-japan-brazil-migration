@@ -83,11 +83,12 @@ main {
 }
 
 p {
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 #history {
-    padding: 20px;
+    padding: 20px 10% 50px 10%;
+    background-color: aliceblue;
 }
 
 #history-text a {
@@ -103,6 +104,7 @@ p {
     margin-bottom: 20px;
 }
 
+
 #history-intro-image {
     background: url(../images/history-intro.webp) no-repeat center center/cover;
     width: 100%;
@@ -111,7 +113,6 @@ p {
 }
 
 .content {
-
     padding: 20px;
 }
 
@@ -203,14 +204,6 @@ p {
     padding-bottom: 20px;
 }
 
-#subscribe-text ul {
-    list-style-type: none;
-}
-
-#subscribe-text ul li+li {
-    margin-top: 10px;
-}
-
 .radio-buttons {
     display: flex;
     justify-content: space-around;
@@ -228,17 +221,17 @@ p {
 }
 
 .form-button {
-	background: #A61C41;
-	padding: 10px;
-	margin: 20px;
-	border: none;
-	width: 50%;
-	height: 65px;
+    background: #A61C41;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    width: 50%;
+    height: 65px;
     align-self: center;
-	border-radius: 5px;
-	font-size: 18px;
-	color: white;
-	box-shadow: 0 4px 20px lightblue;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 4px 20px lightblue;
 }
 
 /* References */
@@ -289,6 +282,7 @@ footer i {
 
 footer p {
     font-size: 75%;
+    padding-top: 2px;
 }
 
 /* Media query: tablets and larger phones (768px and up) */
@@ -338,9 +332,13 @@ footer p {
         font-size: 400%;
     }
 
+    h3 {
+        font-size: 200%;
+    }
+
+    /* History */
     #background-history {
-        background-color: aliceblue;
-        padding-bottom: 50px;
+        padding: 0 5%;
     }
 
     #history-text {
@@ -373,13 +371,19 @@ footer p {
     }
 
     /* Timeline */
+    .content {
+        padding: 0px 10% 0 10%;
+    }
+
     .event-content {
         display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         justify-content: space-between;
     }
 
     .event-content div {
-        width: 500px;
+        width: 600px;
 
     }
 
@@ -388,12 +392,34 @@ footer p {
         width: 100%;
     }
 
+    /* Culture */
+    #culture {
+        padding: 0 10%;
+    }
+
     .reference-list {
         padding-left: 0px;
     }
 
+    /* Subscribe */
+    #subscribe {
+        padding: 10%;
+    }
+
+    #subscribe-container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px 20px 10px;
+    }
+    #subscribe-form-container {
+        width: 75%;
+        align-self: center;
+    }
+
+    /* Footer */
     footer p {
         font-size: 100%;
+        padding: 0;
     }
 
     footer i {
