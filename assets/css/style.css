@@ -22,13 +22,16 @@ header {
     background-color: #A61C41;
     position: fixed;
     width: 100%;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 30px 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
 
+header ul {
+  text-align: right;
+}
 h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 900;
@@ -61,6 +64,7 @@ nav {
 nav>ul>li {
     text-decoration: none;
     list-style-type: none;
+    padding-top: 5px;
 }
 
 /* Banner section */
@@ -106,7 +110,7 @@ p {
 }
 
 .content {
-    margin-top: 60px;
+
     padding: 20px;
 }
 
@@ -230,6 +234,7 @@ footer p {
 
     header {
         flex-direction: row;
+        padding: 10px 70px 10px 70px;
     }
 
     #main-menu {
@@ -247,6 +252,7 @@ footer p {
     ul {
         display: flex;
         list-style-type: none;
+        padding-right: ;
     }
 
     li {
@@ -336,6 +342,9 @@ footer p {
 
 /* Media query: desktops and large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+    header {
+        height: 80px;
+    }
     h3 {
         font-size: 300%;
     }
@@ -354,7 +363,8 @@ footer p {
     }
 
     #timeline {
-        padding: 5%;
+        margin: 0 5% 0 5%;
+        padding: 20px;
     }
 
     .timeline .event::before {
