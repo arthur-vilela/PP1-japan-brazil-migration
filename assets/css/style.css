@@ -204,6 +204,7 @@ p {
 #culture {
     margin-top: 77px;
     padding: 77px 0 20px 0;
+    background-color: #fafafa;
 }
 
 #culture img {
@@ -407,6 +408,10 @@ footer p {
         padding: 70px 10% 0 10%;
     }
 
+    .timeline .event::before {
+        top: 35px;
+    }
+
     .event-content {
         display: flex;
         flex-direction: column;
@@ -443,6 +448,10 @@ footer p {
         display: flex;
         flex-direction: column;
         padding: 30px 10px 20px 10px;
+    }
+
+    #subscribe-text p {
+        padding-top: 10px;
     }
 
     #subscribe-form-container {
@@ -515,7 +524,52 @@ footer p {
     }
 
     /* Culture */
+    #culture {
+        padding: 10%;
+    }
 
+    #culture img {
+        object-fit: cover;
+    }
+
+    #cuisine {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #cuisine div {
+        width: 500px;
+        height: 548px;
+        padding-top: 30px;
+    }
+
+    #art {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    #art div {
+        width: 500px;
+        height: 681px;
+        padding-top: 30px;
+    }
+
+    #sports {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #sports div {
+        width: 500px;
+        padding-top: 30px;
+    }
 
     /* Subscribe */
     #subscribe-container {
