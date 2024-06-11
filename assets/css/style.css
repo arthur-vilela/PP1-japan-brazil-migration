@@ -82,7 +82,7 @@ nav>ul>li {
     position: relative;
     top: 250px;
     left: 20px;
-    background-color: rgba(240, 248, 250, 0.8);
+    background-color: rgba(240, 248, 250, 0.9);
     padding: 15px 0 0 10px;
 }
 
@@ -354,6 +354,20 @@ footer p {
         /* Reduce height to 75% */
     }
 
+    #banner-text {
+        width: 50%;
+        height: 500px;
+        position: relative;
+        top: 0;
+        left: 368px;
+        background-color: rgba(240, 248, 250, 0.9);
+        padding: 80px 50px 50px;
+    }
+
+    #banner-text p {
+        font-size: 150%;
+    }
+
     main {
         width: 100vw;
     }
@@ -452,6 +466,20 @@ footer p {
     h2 {
         margin-top: 0;
     }
+    /* Banner */
+    #banner-text {
+        width: 30%;
+        height: 500px;
+        position: relative;
+        top: 0;
+        left: 710px;
+        background-color: rgba(240, 248, 250, 0.9);
+        padding: 80px 50px 50px;
+    }
+
+    #banner-text p {
+        font-size: 150%;
+    }
 
     /* History */
     #history h3 {
@@ -512,6 +540,17 @@ footer p {
 
     h3 {
         font-size: 300%;
+    }
+
+    /* Banner*/
+    #banner-text {
+        width: 30%;
+        height: 400px;
+        position: relative;
+        top: 0;
+        left: 770px;
+        background-color: rgba(240, 248, 250, 0.9);
+        padding: 50px 50px 50px;
     }
 
     #history {
