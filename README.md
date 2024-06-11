@@ -62,5 +62,6 @@ The website will be useful to understand:
      ![Valid CSS logo from W3C](https://jigsaw.w3.org/css-validator/images/vcss-blue)
 
 - Accessibility
-    - Lighthouse in devtools indicated a high 
+    - Lighthouse in devtools indicated a high accessibility score
+    - It also indicated a middle (yellow)"Performance" score.
 
