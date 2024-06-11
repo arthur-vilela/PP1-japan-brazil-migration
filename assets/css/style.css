@@ -76,6 +76,20 @@ nav>ul>li {
     background: url(../images/fa65c-imigracao-japonesa-no-brasil.webp) no-repeat left center/cover;
 }
 
+#banner-text {
+    width: 70%;
+    height: 250px;
+    position: relative;
+    top: 250px;
+    left: 20px;
+    background-color: rgba(240, 248, 250, 0.8);
+    padding: 15px 0 0 10px;
+}
+
+#banner-text h2 {
+    margin-top: 0;
+}
+
 /* Main */
 main {
     background-color: lightblue;
@@ -176,6 +190,7 @@ p {
 .event-content .legend {
     padding: 10px 0px;
 }
+
 .event-content img {
     padding-top: 20px;
 }
@@ -437,6 +452,7 @@ footer p {
     h2 {
         margin-top: 0;
     }
+
     /* History */
     #history h3 {
         margin-top: 0;
@@ -454,7 +470,8 @@ footer p {
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    #history-content-top > div {
+
+    #history-content-top>div {
         width: 500px;
     }
 
@@ -465,7 +482,7 @@ footer p {
         flex-direction: row-reverse;
     }
 
-    #history-content-bottom > div {
+    #history-content-bottom>div {
         width: 500px;
     }
 
@@ -479,7 +496,7 @@ footer p {
         padding: 20px;
         justify-content: space-between;
     }
-    
+
     #subscribe-text {
         width: 100%;
         font-size: 200%;
@@ -547,13 +564,14 @@ footer p {
     .event-content {
         flex-direction: row;
     }
+
     .event-content div {
         padding-left: 20px;
     }
 
     /* Cultural Aspects */
     #culture {
-    padding: 10%;
+        padding: 10%;
     }
 
     #cuisine {
