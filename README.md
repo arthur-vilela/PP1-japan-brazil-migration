@@ -34,6 +34,10 @@ The website will be useful to understand:
     - The "Subscribe to out newsletter" section has a form to collect contact information from the users that are interested in receiving current information on the topic, cultural events and networking.
     - The form collect's the users' first and last name, email and in which language they would prefer to receive the newsletter in.
     - The form is valuable to the user as it gives the possibility of an extended contact with the Japanese Brazilian community beyond the website.
+- References
+    - The "References" section is a smaller and simpler section with listed references from the text in the above sections.
+    - The links are responsive and change color of text and background when hovered (when viewed on a laptop or desktop)
+    - All links open in a new page
 ## Testing
 - I tested that this page works in different browsers: Chrome, Edge, Firefox and Safari.
 - I tested that this page is responsive, functions and is comfortable to read in different screen sizes' widths:
@@ -70,5 +74,7 @@ The website will be useful to understand:
 
 - Accessibility
     - Lighthouse in devtools indicated a high accessibility score
-    - It also indicated a middle (yellow)"Performance" score.
+    - It also indicated a middle (yellow)"Performance" score. The low performance was mainly due to large image sizes
+        - The banner image was the main responsible for slow loading time.
+        - The banner image was subsequently compressed without visible visual quality loss and replaced in the assets folder.
 
