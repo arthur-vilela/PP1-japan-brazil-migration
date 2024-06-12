@@ -14,6 +14,7 @@ The website will be useful to understand:
     - It includes three links to the different sections of the website: Timeline, Culture and Subscribe.
     - The monochromatic and darker background provides contrast with the white text.
     - The links are clear on their meaning and connection with their respective sections.
+    - The links are responsive on laptop and desktop screens, changing the text and background colour when hovered with the cursor.
 
     ![Screenshot of the navigation bar](docs/navbar.png)
 
@@ -99,6 +100,7 @@ The website will be useful to understand:
 ## Validator Testing
 - HTML
     - No errors were found when validating the HTML code on the official W3C validator.
+    ![Screenshot of W3C website indicating no errors found in the HTML code, and on message](docs/html-validation.png)
 - CSS
     - No errors were found when validating the CSS code on the official W3C validator.
 
