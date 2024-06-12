@@ -157,6 +157,10 @@ p {
     font-size: 200%;
 }
 
+.timeline a {
+    color: black;
+}
+
 .timeline .event {
     margin: 20px 0;
     padding-left: 20px;
@@ -281,7 +285,7 @@ p {
 }
 
 #reference a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
@@ -530,6 +534,16 @@ footer p {
         width: 500px;
     }
 
+    /* Timeline */
+    .timeline a {
+        text-decoration: none;
+    }
+
+    .timeline a:hover {
+        background-color: #A61C41;
+        color: #fafafa  ;
+    }
+
     /* Culture */
     #culture {
         padding: 10%;
@@ -590,6 +604,17 @@ footer p {
         width: 100%;
         font-size: 200%;
         padding: 70px 70px;
+    }
+
+    /* References */
+    #reference a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #reference a:hover {
+        background-color: #A61C41;
+        color: #fafafa  ;
     }
 }
 
