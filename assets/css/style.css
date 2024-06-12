@@ -233,7 +233,10 @@ p {
 
 #subscribe-text {
     text-align: center;
-    padding-bottom: 20px;
+}
+
+#subscribe-text p {
+    padding: 5px;
 }
 
 .radio-buttons {
@@ -290,6 +293,10 @@ p {
     color: black;
 }
 
+#reference li {
+    padding-bottom: 5px;
+}
+
 .reference-list {
     padding-left: 20px;
 }
@@ -313,7 +320,7 @@ footer i {
 
 footer p {
     font-size: 75%;
-    padding-top: 2px;
+    padding: 2px 0;
 }
 
 /* Media query: tablets and larger phones (768px and up) */
@@ -459,6 +466,13 @@ footer p {
         align-self: center;
     }
 
+    /* References */
+    #reference {
+        margin-bottom: 64px;
+        padding: 10%;
+        line-height: 1.5;
+    }
+
     /* Footer */
     footer p {
         font-size: 100%;
@@ -475,6 +489,7 @@ footer p {
     h2 {
         margin-top: 0;
     }
+
     /* Banner */
     #banner-text {
         width: 30%;
