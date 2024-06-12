@@ -52,6 +52,11 @@ The website will be useful to understand:
     - After the first deployment, I noticed the placeholder in "First name" input field displayed "Last name".
     - I corrected the placeholder value in the HTML file to fix the problem.
     ![Screenshot of the form section displaying "Last name" as placeholder for the "First name" input](assets/images/readme-screenshots/error-form.png)
+    - Banner image didn't load after substituting the file for a compressed version
+    ![Screenshot of the main page without the banner image](assets/images/readme-screenshots/error-banner.png)
+    - I corrected the code on the CSS file
+
+        ```background: url(../images/banner.webp) no-repeat left center/cover;```
 - Accesibility (solved) issues
     - Lighthouse indicated that the checkbox input in the form didn't have a label
     - I changed the text from a span to a label to fix the problem.
