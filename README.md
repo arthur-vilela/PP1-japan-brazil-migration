@@ -1,3 +1,4 @@
+![Screenshot of the website in different screensizes](assets/images/readme-screenshots/view-different-devices.png)
 # Japanese - Brazilian migration
 
 Japanese - Brazilian Migration is a website designed to inform people about the rich history of connection between these two countries from across the planet. It will be targeted for those who are interested in the topic, including pupils, researchers and the history buff. 
@@ -50,6 +51,7 @@ The website will be useful to understand:
 - Solved bugs
     - After the first deployment, I noticed the placeholder in "First name" input field displayed "Last name".
     - I corrected the placeholder value in the HTML file to fix the problem.
+    ![Screenshot of the form section displaying "Last name" as placeholder for the "First name" input](assets/images/readme-screenshots/error-form.png)
 - Accesibility (solved) issues
     - Lighthouse indicated that the checkbox input in the form didn't have a label
     - I changed the text from a span to a label to fix the problem.
