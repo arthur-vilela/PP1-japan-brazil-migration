@@ -147,24 +147,28 @@ The website will be useful to understand:
 
 - Accesibility (solved) issues
     - Lighthouse indicated that the checkbox input in the form didn't have a label
-    - I changed the text from a span to a label to fix the problem.
+    - I changed the text [from a span to a label](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/4a4018e676c9d80c04a9183b522f495568fb25a4/index.html#L457-L460) to fix the problem.
+    ```
+    <input type="checkbox" name="agreement" id="agreement" value="yes" required><label for="agreement" class="agreement">I agree to my email address being stored and used to recieve monthly newsletter.</label>
+    ```
 ## Validator Testing
-- HTML
-    - No errors were found when validating the HTML code on the official W3C validator.
+### HTML
+- No errors were found when validating the HTML code on the official W3C validator.
     ![Screenshot of W3C website indicating no errors found in the HTML code, and on message](docs/html-validation.png)
-- CSS
-    - No errors were found when validating the CSS code on the official W3C validator.
+### CSS
+- No errors were found when validating the CSS code on the official W3C validator.
 
      ![Valid CSS logo from W3C](https://jigsaw.w3.org/css-validator/images/vcss-blue)
      ![Screenshot of W3C website indicating no errors found on this project](docs/css-validation.png)
 
-- Accessibility
-    - Lighthouse in devtools indicated a high accessibility score
-    ![Screenshot of Lighthouse score results displaying 100% in Accessibility](docs/lighthouse.png)
-    - It also indicated a 69% "Performance" score, which was later barely increased. The low performance was mainly due to large image sizes
-        - The banner image was the main responsible for slow loading time.
-        - The banner image was subsequently compressed without visible visual quality loss and replaced in the assets folder.
-        - The Performance score increased only 1%
+### Accessibility
+- Lighthouse in devtools indicated a high accessibility score
+![Screenshot of Lighthouse score results displaying 100% in Accessibility](docs/screenshot-lighthouse.png)
+- At first try, it indicated a 69% "Performance" score, which was later increased. The low performance was mainly due to large image sizes
+    - The banner image was the main responsible for slow loading time.
+    - The banner image was subsequently compressed without visible visual quality loss and replaced in the assets folder.
+    ![Screenshot of Lighthouse score results displaying 66% in Performance](docs/lighthouse-low-performance.png)
+
 ## Deployment
 The site was deployed to GitHub pages. 
 The steps to deploy are as follows:
@@ -180,17 +184,25 @@ From the `Source` section drop-down menu, select the `Master Branch`
 - The content from the Cultural Background and Timeline section was summarized by me and originally taken from the [Wikipedia page on Japanese immigration to Brazil.](https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil)
 - The text was only later translated to English, since the Wikipedia article in Portuguese was much richer in content.
 ### Media
-- The banner image is from this[ article by Juliana Gomes](https://blog.meudna.com/imigracao-japonesa-criando-raizes-no-brasil/)
+- The banner image is from this [article by Juliana Gomes](https://blog.meudna.com/imigracao-japonesa-criando-raizes-no-brasil/)
     - I contacted the author, who let me use the image for this purpose. The image was created using IA tools, which render it copywrite free in Brazil.
-- The other images used in this project are now in public domain and were all taken from Wikipedia.
-- Historical background section
-    - The poster presented is in the Japanese Immigration History Museum
-    - The photo of Ryo Mizuno is in the Museu Histórico da Imigração Japonesa no Brasil (São Paulo) (Historical Museum of the Japanese Immigration in Brazil)
-- Timeline section
-    - The first three of the original images (photos and postcards) in this section are located in the Museu Histórico da Imigração Japonesa no Brasil (São Paulo) (Historical Museum of the Japanese Immigration in Brazil)
-    - The fourth image was taken by Caio do Valle, Brazil, uploaded by him onto Wikipedia and released into public domain by the author.
-- Cultural Aspects section
-    - The images from this section were taken on the open source website [pexels.com](https://www.pexels.com/)
+#### Links
+
+|File|Author|Link|
+|--|--|--|
+| banner.webp | Juliana Gomes | https://blog.meudna.com/imigracao-japonesa-criando-raizes-no-brasil/|
+|ceramic.webp | Regiane Tosatti | https://www.pexels.com/pt-br/foto/fotografia-com-foco-seletivo-de-pessoa-moldando-argila-22823/|
+|history-bottom | unknown | https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil |
+history-intro | unknown | https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil |
+|judo.webp | Kampus Production | https://www.pexels.com/pt-br/foto/homem-mulher-esporte-luta-6765030/ |
+temaki.webp | unknown | https://globorural.globo.com/vida-na-fazenda/receitas/noticia/2021/07/comida-japonesa-com-jeitinho-brasileiro-como-fazer-temaki.html |
+timeline-1908.webp | unknown | https://en.wikipedia.org/wiki/Kasato_Maru |
+timeline-1920.webp | unknown | https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil |
+timeline-1930.webp | unknown | https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil
+timeline-1940.webp | Vinicius Fontana | https://g1.globo.com/mundo/noticia/2020/08/29/campo-de-concentracao-na-amazonia-aprisionou-centenas-de-familias-japonesas-durante-2a-guerra.ghtml
+timeline-1980.webp | Almeida Rocha | https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil
+timeline-post-ww2.webp | Caio do Valle | https://commons.wikimedia.org/wiki/File:Liberdade_sao_paulo.jpg
+
 
 ### Code
 -  The original code for the dots and vertical line in the Timeline section was created using Copilot.
@@ -220,6 +232,6 @@ From the `Source` section drop-down menu, select the `Master Branch`
     }
 ```
 ### Readme.md
-- The base for the README.md file was taken from Code Institute readme template found on https://github.com/Code-Institute-Solutions/readme-template
+- The base for the README.md file was taken from [Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template) on Github. 
 - The template for the table on the Testing section was found on [stackedit.io](https://stackedit.io/)
 - Some tested items were taken from my mentor Alan Bushell PP1 project README.md file
