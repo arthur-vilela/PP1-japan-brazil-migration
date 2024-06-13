@@ -1,4 +1,4 @@
-![Screenshot of the website in different screensizes](assets/images/readme-screenshots/view-different-devices.png)
+![Screenshot of the website in different screensizes](docs/view-different-devices.png)
 # Japanese - Brazilian migration
 
 Japanese - Brazilian Migration is a website designed to inform people about the rich history of connection between these two countries from across the planet. It will be targeted for those who are interested in the topic, including pupils, researchers and the history buff. 
@@ -8,55 +8,56 @@ The website will be useful to understand:
 - and after - how did the population integrate and change its new home 
 
 ## Features
-- Navigation bar
-    - It is fixed at the top of the page, allowing the user to always have access to the links, easing the navigation back and fourth through website.
-    - It includes a link back to the top of the page on the left side.
-    - It includes three links to the different sections of the website: Timeline, Culture and Subscribe.
-    - The monochromatic and darker background provides contrast with the white text.
-    - The links are clear on their meaning and connection with their respective sections.
-    - The links are responsive on laptop and desktop screens, changing the text and background colour when hovered with the cursor.
+### Navigation bar
+- It is fixed at the top of the page, allowing the user to always have access to the links, easing the navigation back and fourth through website.
+- It includes a link back to the top of the page on the left side.
+- It includes three links to the different sections of the website: Timeline, Culture and Subscribe.
+- The monochromatic and darker background provides contrast with the white text.
+- The links are clear on their meaning and connection with their respective sections.
+- The links are responsive on laptop and desktop screens, changing the text and background colour when hovered with the cursor.
 
-    ![Screenshot of the navigation bar](docs/navbar.png)
+![Screenshot of the navigation bar](docs/navbar.png)
 
-- Banner
-    - The banner show the name and theme of the website, informing the user what they can expect to find.
-    - The font and color scheme are kept in correspondence with the rest of the page.
-    - The image displayed is colorful and representative of the topic, showing a torii (traditional japanese gate) and the MASP (Sao Paulo Art Museum), conveying visually the connection between Japan and Brazil as soon as the page opens.
+### Banner
 
-    ![Screenshot of the navigation bar](docs/banner.png)
-- Historical Background
-    - The "Historical Background" section of the page is a short introduction to the topic, improving understanding of the following timeline.
-    - It displays two historical images that draw the user's attention.
+- The banner show the name and theme of the website, informing the user what they can expect to find.
+- The font and color scheme are kept in correspondence with the rest of the page.
+- The image displayed is colorful and representative of the topic, showing a torii (traditional japanese gate) and the MASP (Sao Paulo Art Museum), conveying visually the connection between Japan and Brazil as soon as the page opens.
 
-    ![Screenshot of the history section](docs/history.png)
-- Timeline
-    - The timeline section provides historical information in a cronologic manner, taking advantage of the scrolling format of the page.
-    - For each event on the timeline, there's a date, subtitle, text and one image of the period.
-    - The timeline adjusts to the horizontal screens of desktops, while still keeping uniformity and flow.
-    - The timeline is valuable to the user because it effectively provides a visual layout of the cronological events that would be so clear in plain text. 
+![Screenshot of the navigation bar](docs/banner.png)
+### Historical Background
+- The "Historical Background" section of the page is a short introduction to the topic, improving understanding of the following timeline.
+- It displays two historical images that draw the user's attention.
+
+![Screenshot of the history section](docs/history.png)
+### Timeline
+- The timeline section provides historical information in a cronologic manner, taking advantage of the scrolling format of the page.
+- For each event on the timeline, there's a date, subtitle, text and one image of the period.
+- The timeline adjusts to the horizontal screens of desktops, while still keeping uniformity and flow.
+- The timeline is valuable to the user because it effectively provides a visual layout of the cronological events that would be so clear in plain text. 
 
     ![Screenshot of the timeline section](docs/timeline.png)
-- Cultural Aspects
-    - The "Culture" displays images and texts about different areas the japanese population influenced Brazil cultural scene.
-    - It fits the cronological logic of the website, arriving on current topics.
-    - This section is valuable to the user because it provides information beyond historical facts, it shows the consequences of the facts shown before, increasing their meaning.
+### Cultural Aspects
+- The "Culture" displays images and texts about different areas the japanese population influenced Brazil cultural scene.
+- It fits the cronological logic of the website, arriving on current topics.
+- This section is valuable to the user because it provides information beyond historical facts, it shows the consequences of the facts shown before, increasing their meaning.
 
     ![Screenshot of the culture section](docs/culture.png)
-- Subscribe
-    - The "Subscribe to out newsletter" section has a form to collect contact information from the users that are interested in receiving current information on the topic, cultural events and networking.
-    - The form collect's the users' first and last name, email and in which language they would prefer to receive the newsletter in.
-    - The form is valuable to the user as it gives the possibility of an extended contact with the Japanese Brazilian community beyond the website.
+### Subscribe
+- The "Subscribe to out newsletter" section has a form to collect contact information from the users that are interested in receiving current information on the topic, cultural events and networking.
+- The form collect's the users' first and last name, email and in which language they would prefer to receive the newsletter in.
+- The form is valuable to the user as it gives the possibility of an extended contact with the Japanese Brazilian community beyond the website.
 
     ![Screenshot of the subscribe section](docs/subscribe.png)
-- References
-    - The "References" section is a smaller and simpler section with listed references from the text in the above sections.
-    - The links are responsive and change color of text and background when hovered (when viewed on a laptop or desktop)
-    - All links open in a new page
-    - The Reference section is valuable to the user because it provides validation to the information presented on the website, particularly useful for students and researchers who need to go deep in the topic or find sources for their projects.
+### References
+- The "References" section is a smaller and simpler section with listed references from the text in the above sections.
+- The links are responsive and change color of text and background when hovered (when viewed on a laptop or desktop)
+- All links open in a new page
+- The Reference section is valuable to the user because it provides validation to the information presented on the website, particularly useful for students and researchers who need to go deep in the topic or find sources for their projects.
 
     ![Screenshot of the subscribe section](docs/references.png)
-- Footer
-    - The footer section includes links to the relevant websites within the topic of Japanese immigration to Brazil
+### Footer
+- The footer section includes links to the relevant websites within the topic of Japanese immigration to Brazil
         - Main Wikipedia article in English
         - Wikiwand article page
         - Japanese Embassy in Brazil 
@@ -66,24 +67,63 @@ The website will be useful to understand:
 
 ![Screenshot of the footer section](docs/footer.png) 
 
-## Testing
-- I tested that this page works in different browsers: Chrome, Edge, Firefox and Safari, both on Windows 11 and MacOS.
-- I tested that this page is responsive, functions and is comfortable to read in different screen sizes' widths:
-    - 480px
-    - 768px
-    - 1208px
-    - 1600px
-- This was tested with mobile devices and laptops of different brands and sizes.
-- I confirmed that all sections are readable and easy to understand.
-- I confirmed that the form works:
-    - Every input field is required.
-    - The email input field will only accept an email.
-    - One language is checked by default.
-    - Autocomplete works on Chrome 
-    ![Screenshot of form autofilled](docs/form-autofill.png)
+### Features left to implement
+- One possible feature for the future would be to expand the "Cuisine" topic into a full section for Japanese-Brazilian cuisine.
+- This could increase the number of users revisiting the website, improving traffic.
 
-    ### Unfixed bugs
-    - No known bugs were left unfixed.
+#### Recipes 
+- A comparison between the Brazilian and the traditional Japanese recipes.
+- A comparison between traditional Japanese ingredients and their Brazilian substitutes.
+- Comment section for sharing cooking notes on their could increase user interaction.
+
+#### Restaurants
+- A  list of restaurants divided in traditional and Brazilian-Japanese.
+- A map showing their location with direct links to the restaurants' website.
+
+#### Events section
+- A possible feature would be to list upcoming events related to the Japanese community in Brazil
+- The list could be similar to the one sent on newsletters, but could reach users who wouldn't like to subscribe to any more newsletters and just quickly check on the website.
+- The events happening currently or very soon could also be displayed in a smaller side element on top of the page for a quick view to revisiting users.
+## Technology Used
+|Technology | Use|
+|--|--|
+|HTML| Structure the webpage
+|CSS| Style and add layout to the project
+|Font Awesome| Used for the footer icons
+|GoogleFonts| Research, pair and add fonts to the project
+|Adobe Illustrator| Create the favicon logo
+|[Optimizilla](https://imagecompressor.com/)| Compress images
+|[WEBP Converter](https://cloudconvert.com/webp-converter)| Convert jpg/png images to webp format
+
+
+## Testing
+|Test                           |Action                     | Expected result                |Outcome|
+|-------------------------------|---------------------------|--------------------------------|-------|
+|Display in different broswers  |Open and navigate on Chrome, Firefox, Edge and Safari|Similar experience in all browsers | Pass  |
+|Display in different OS        |Open and navigate on Windows 11 and MacOS 13|Similar experience in all OS|Pass
+|Check responsiveness in different resolutions|Use Devtools to check visual result and usability in four different resolutions - 480px, 768px, 1208px, 1600px |Good visual and readability experience |Pass
+|Display in different devices|Open and navigate on Google Pixel 7, iPhone 13 and iPad Air|Similar experience in all devices| Pass
+|Navigation links               |Click on navigation links|To be lead to their corresponding section|Pass
+|Footer links|Click on footer link|External websites opening in a separate tab|Pass
+|Internal reference links       | Click on each internal link | To be directed to corresponding reference | Pass
+
+### Form testing
+- I confirmed that the form works:
+
+|Test                                                           | Outcome|
+|---------------------------------------------------------------|--------|
+|Every input field is required                                  |Pass    |
+|The email input field will only accept an email                |Pass    |
+|One language is checked by default                             |Pass    |
+|Autocomplete works on all tested browsers                      |Pass    |
+|Subscription form submits when all criteria is filled correctly|Pass    |
+|Name input fields don't accept inputs without letters          |Pass    |
+|User prevented from submitting form without correct elements   |Pass    |
+
+![Screenshot of form autofilled](docs/form-autofill.png)
+
+### Unfixed bugs
+- No known bugs were left unfixed.
 ## Bugs
 - Solved bugs
     - After the first deployment, I noticed the placeholder in "First name" input field displayed "Last name".
@@ -91,9 +131,20 @@ The website will be useful to understand:
     ![Screenshot of the form section displaying "Last name" as placeholder for the "First name" input](docs/error-form.png)
     - Banner image didn't load after substituting the file for a compressed version
     ![Screenshot of the main page without the banner image](docs/error-banner.png)
-    - I corrected the file path on the CSS file, which solved the issue
+    - I corrected the [file path on the CSS file](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/7cda0a09f16a1a8ba29f5660240882fa9fba8994/assets/css/style.css#L76), which solved the issue
 
-        ```background: url(../images/banner.webp) no-repeat left center/cover;```
+        ```
+        background: url(../images/banner.webp) no-repeat left center/cover;
+        ```
+    - "First name" and "Last name" input field accepted empty values if the user simply pressed "space"
+    ![Screenshot of the submitted form with empty values for First and Last names](docs/error-form-empty-field.png)
+    - The bug was fixed by changing the HTML code of the input, [adding a pattern attribute](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/7cda0a09f16a1a8ba29f5660240882fa9fba8994/index.html#L433-L436)
+
+    ```
+    <input type="text" class="text-input" name="first-name" id="first-name" placeholder="First name" autocomplete="given-name" pattern="[A-Za-z]" required>
+    <input type="text" class="text-input" name="last-name" id="last-name" placeholder="Last name" autocomplete="family-name" pattern="[A-Za-z]" required>
+    ```
+
 - Accesibility (solved) issues
     - Lighthouse indicated that the checkbox input in the form didn't have a label
     - I changed the text from a span to a label to fix the problem.
@@ -169,4 +220,5 @@ From the source section drop-down menu, select the Master Branch
 ```
 ### Readme.md
 - The base for the README.md file was taken from Code Institute readme template found on https://github.com/Code-Institute-Solutions/readme-template
-
+- The template for the table on the Testing section was found on [stackedit.io](https://stackedit.io/)
+- Some tested items were taken from my mentor Alan Bushell PP1 project README.md file
