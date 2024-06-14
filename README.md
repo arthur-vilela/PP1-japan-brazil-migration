@@ -7,7 +7,27 @@ The website will be useful to understand:
 - During - how was the migration and settling process
 - and after - how did the population integrate and change its new home 
 
+### Colour pallete
+- The colour scheme for this project was chosen to create uniformity and simplicity, at the same time keeping a high contrast ratio between text and background.
+- The original idea of combining colours from both countries' flags did not work well for they were highly saturated and didn't relate well. So a wine colour was chosen instead of the intense pure red of the Japanese flag and a lightblue  instead of the vivid blue of the Brazilian flag.
+
+<div align="center">
+
+![Four squares of each color in the project](docs/colour-scheme.png)
+
+</div>
+
+### Favicon
+- The favicon was created by combining both countries' flag for easy identification, to stay on theme and visually clear in small sizes.
+
+<div align="center">
+
+![Square favicon display half of the Brazilian and half of the Japanese flag](docs/android-chrome-192x192.png)
+
+</div>
+
 ## Features
+
 ### Navigation bar
 - It is fixed at the top of the page, allowing the user to always have access to the links, easing the navigation back and fourth through website.
 - It includes a link back to the top of the page on the left side.
@@ -100,12 +120,12 @@ The website will be useful to understand:
 |Test                           |Action                     | Expected result                |Outcome|
 |-------------------------------|---------------------------|--------------------------------|-------|
 |Display in different broswers  |Open and navigate on Chrome, Firefox, Edge and Safari|Similar experience in all browsers | Pass  |
-|Display in different OS        |Open and navigate on Windows 11 and MacOS 13|Similar experience in all OS|Pass
-|Check responsiveness in different resolutions|Use Devtools to check visual result and usability in four different resolutions - 480px, 768px, 1208px, 1600px |Good visual and readability experience |Pass
-|Display in different devices|Open and navigate on Google Pixel 7, iPhone 13 and iPad Air|Similar experience in all devices| Pass
-|Navigation links               |Click on navigation links|To be lead to their corresponding section|Pass
-|Footer links|Click on footer link|External websites opening in a separate tab|Pass
-|Internal reference links       | Click on each internal link | To be directed to corresponding reference | Pass
+|Display in different OS        |Open and navigate on Windows 11 and MacOS 13|Similar experience in all OS                | Pass
+|Check responsiveness in different resolutions|Use Devtools to check visual result and usability in four different resolutions - 480px, 768px, 1208px, 1600px | Good visual and readability experience          | Pass
+|Display in different devices | Open and navigate on Google Pixel 7, iPhone 13 and iPad Air|Similar experience in all devices| Pass
+|Navigation links               | Click on navigation links | To be lead to their corresponding section                   | Pass
+|Footer links                   | Click on footer link      |External websites opening in a separate tab                  | Pass
+|Internal reference links       | Click on each internal link | To be directed to corresponding reference                 | Pass
 
 ### Form testing
 - I confirmed that the form works:
@@ -137,7 +157,9 @@ The website will be useful to understand:
         background: url(../images/banner.webp) no-repeat left center/cover;
         ```
     - "First name" and "Last name" input field accepted empty values if the user simply pressed "space"
+
     ![Screenshot of the submitted form with empty values for First and Last names](docs/error-form-empty-field.png)
+
     - The bug was fixed by changing the HTML code of the input, [adding a pattern attribute](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/7cda0a09f16a1a8ba29f5660240882fa9fba8994/index.html#L433-L436)
 
     ```
@@ -164,9 +186,10 @@ The website will be useful to understand:
 ### Accessibility
 - Lighthouse in devtools indicated a high accessibility score
 ![Screenshot of Lighthouse score results displaying 100% in Accessibility](docs/screenshot-lighthouse.png)
-- At first try, it indicated a 69% "Performance" score, which was later increased. The low performance was mainly due to large image sizes
+- At first try, it indicated a 66% "Performance" score, which was later increased. The low performance was mainly due to large image sizes
     - The banner image was the main responsible for slow loading time.
     - The banner image was subsequently compressed without visible visual quality loss and replaced in the assets folder.
+
     ![Screenshot of Lighthouse score results displaying 66% in Performance](docs/lighthouse-low-performance.png)
 
 ## Deployment
@@ -177,15 +200,21 @@ From the `Source` section drop-down menu, select the `Master Branch`
 - In the next drop-down menu, select the `/root` option.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found here 
+
     >https://arthur-vilela.github.io/PP1-japan-brazil-migration/
 
 ## Credits
+
 ### Content
+
 - The content from the Cultural Background and Timeline section was summarized by me and originally taken from the [Wikipedia page on Japanese immigration to Brazil.](https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_japonesa_no_Brasil)
 - The text was only later translated to English, since the Wikipedia article in Portuguese was much richer in content.
+
 ### Media
+
 - The banner image is from this [article by Juliana Gomes](https://blog.meudna.com/imigracao-japonesa-criando-raizes-no-brasil/)
     - I contacted the author, who let me use the image for this purpose. The image was created using IA tools, which render it copywrite free in Brazil.
+
 #### Links
 
 |File|Author|Link|

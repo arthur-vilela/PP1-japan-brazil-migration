@@ -269,8 +269,8 @@ p {
     align-self: center;
     border-radius: 5px;
     font-size: 18px;
-    color: white;
-    box-shadow: 0 4px 20px lightblue;
+    color: #fafafa;
+    box-shadow: 0 4px 20px #add8e6;
 }
 
 /* References */
