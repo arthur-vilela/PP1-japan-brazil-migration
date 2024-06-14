@@ -1,15 +1,15 @@
 ![Screenshot of the website in different screensizes](docs/view-different-devices.png)
 # Japanese - Brazilian migration
 
-Japanese - Brazilian Migration is a website designed to inform people about the rich history of connection between these two countries from across the planet. It will be targeted for those who are interested in the topic, including pupils, researchers and the history buff. 
+Japanese - Brazilian Migration is a website designed to inform people about the rich history of connection between these two countries from across the planet. It will be targeted for those who are interested in the topic, including pupils, researchers and history buffs. 
 The website will be useful to understand:
 - The before - what pushed people to leave their homes
 - During - how was the migration and settling process
 - and after - how did the population integrate and change its new home 
 
-### Colour pallete
+### Colour palette
 - The colour scheme for this project was chosen to create uniformity and simplicity, at the same time keeping a high contrast ratio between text and background.
-- The original idea of combining colours from both countries' flags did not work well for they were highly saturated and didn't relate well. So a wine colour was chosen instead of the intense pure red of the Japanese flag and a lightblue  instead of the vivid blue of the Brazilian flag.
+- The original idea of combining colours from both countries' flags did not work well for they were highly saturated and didn't relate well. So a wine colour was chosen instead of the intense pure red of the Japanese flag and a light blue  instead of the vivid blue of the Brazilian flag.
 
 <div align="center">
 
@@ -29,7 +29,7 @@ The website will be useful to understand:
 ## Features
 
 ### Navigation bar
-- It is fixed at the top of the page, allowing the user to always have access to the links, easing the navigation back and fourth through website.
+- It is fixed at the top of the page, allowing the user to always have access to the links, easing the navigation back and forth through website.
 - It includes a link back to the top of the page on the left side.
 - It includes three links to the different sections of the website: Timeline, Culture and Subscribe.
 - The monochromatic and darker background provides contrast with the white text.
@@ -40,9 +40,9 @@ The website will be useful to understand:
 
 ### Banner
 
-- The banner show the name and theme of the website, informing the user what they can expect to find.
+- The banner shows the name and theme of the website, informing the user what they can expect to find.
 - The font and color scheme are kept in correspondence with the rest of the page.
-- The image displayed is colorful and representative of the topic, showing a torii (traditional japanese gate) and the MASP (Sao Paulo Art Museum), conveying visually the connection between Japan and Brazil as soon as the page opens.
+- The image displayed is colorful and representative of the topic, showing a torii (traditional Japanese gate) and the MASP (São Paulo Art Museum), conveying visually the connection between Japan and Brazil as soon as the page opens.
 
 ![Screenshot of the navigation bar](docs/banner.png)
 ### Historical Background
@@ -51,15 +51,15 @@ The website will be useful to understand:
 
 ![Screenshot of the history section](docs/history.png)
 ### Timeline
-- The timeline section provides historical information in a cronologic manner, taking advantage of the scrolling format of the page.
+- The timeline section provides historical information in a chronologic manner, taking advantage of the scrolling format of the page.
 - For each event on the timeline, there's a date, subtitle, text and one image of the period.
-- The timeline adjusts to the horizontal screens of desktops, while still keeping uniformity and flow.
-- The timeline is valuable to the user because it effectively provides a visual layout of the cronological events that would be so clear in plain text. 
+- The timeline adjusts to the horizontal screens of desktops, while keeping uniformity and flow.
+- The timeline is valuable to the user because it effectively provides a visual layout of the chronological events that wouldn't be so clear in plain text. 
 
     ![Screenshot of the timeline section](docs/timeline.png)
 ### Cultural Aspects
-- The "Culture" displays images and texts about different areas the japanese population influenced Brazil cultural scene.
-- It fits the cronological logic of the website, arriving on current topics.
+- The "Culture" displays images and texts about different areas the Japanese population influenced Brazil cultural scene.
+- It fits the chronological logic of the website, arriving on current topics.
 - This section is valuable to the user because it provides information beyond historical facts, it shows the consequences of the facts shown before, increasing their meaning.
 
     ![Screenshot of the culture section](docs/culture.png)
@@ -94,7 +94,7 @@ The website will be useful to understand:
 #### Recipes 
 - A comparison between the Brazilian and the traditional Japanese recipes.
 - A comparison between traditional Japanese ingredients and their Brazilian substitutes.
-- Comment section for sharing cooking notes on their could increase user interaction.
+- Comment section for sharing cooking notes could increase user interaction.
 
 #### Restaurants
 - A  list of restaurants divided in traditional and Brazilian-Japanese.
@@ -102,7 +102,7 @@ The website will be useful to understand:
 
 #### Events section
 - A possible feature would be to list upcoming events related to the Japanese community in Brazil
-- The list could be similar to the one sent on newsletters, but could reach users who wouldn't like to subscribe to any more newsletters and just quickly check on the website.
+- The list could be similar to the one sent on newsletters but could reach users who wouldn't like to subscribe to any more newsletters and just quickly check on the website.
 - The events happening currently or very soon could also be displayed in a smaller side element on top of the page for a quick view to revisiting users.
 ## Technology Used
 |Technology | Use|
@@ -119,7 +119,7 @@ The website will be useful to understand:
 ## Testing
 |Test                           |Action                     | Expected result                |Outcome|
 |-------------------------------|---------------------------|--------------------------------|-------|
-|Display in different broswers  |Open and navigate on Chrome, Firefox, Edge and Safari|Similar experience in all browsers | Pass  |
+|Display in different browsers  |Open and navigate on Chrome, Firefox, Edge and Safari|Similar experience in all browsers | Pass  |
 |Display in different OS        |Open and navigate on Windows 11 and MacOS 13|Similar experience in all OS                | Pass
 |Check responsiveness in different resolutions|Use Devtools to check visual result and usability in four different resolutions - 480px, 768px, 1208px, 1600px | Good visual and readability experience          | Pass
 |Display in different devices | Open and navigate on Google Pixel 7, iPhone 13 and iPad Air|Similar experience in all devices| Pass
@@ -167,11 +167,11 @@ The website will be useful to understand:
     <input type="text" class="text-input" name="last-name" id="last-name" placeholder="Last name" autocomplete="family-name" pattern="[A-Za-z]" required>
     ```
 
-- Accesibility (solved) issues
+- Accessibility (solved) issues
     - Lighthouse indicated that the checkbox input in the form didn't have a label
     - I changed the text [from a span to a label](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/4a4018e676c9d80c04a9183b522f495568fb25a4/index.html#L457-L460) to fix the problem.
     ```
-    <input type="checkbox" name="agreement" id="agreement" value="yes" required><label for="agreement" class="agreement">I agree to my email address being stored and used to recieve monthly newsletter.</label>
+    <input type="checkbox" name="agreement" id="agreement" value="yes" required><label for="agreement" class="agreement">I agree to my email address being stored and used to receive monthly newsletter.</label>
     ```
 ## Validator Testing
 ### HTML
