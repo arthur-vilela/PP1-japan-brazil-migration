@@ -360,4 +360,4 @@ timeline-post-ww2.webp | Caio do Valle | https://commons.wikimedia.org/wiki/File
 ### Readme.md
 - The base for the README.md file was taken from [Code Institute readme template](https://github.com/Code-Institute-Solutions/readme-template) on Github. 
 - The template for the table on the Testing section was found on [stackedit.io](https://stackedit.io/)
-- Some tested items were taken from my mentor Alan Bushell PP1 project README.md file
+- Some tested items and structure for the UX section of this Readme.md file were taken from my mentor Alan Bushell [PP1 project's README.md](https://github.com/Alan-Bushell/belfast-auto-repairs/blob/main/README.md).
