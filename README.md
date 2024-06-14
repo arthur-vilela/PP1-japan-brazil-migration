@@ -5,11 +5,101 @@ Japanese - Brazilian Migration is a website designed to inform people about the 
 The website will be useful to understand:
 - The before - what pushed people to leave their homes
 - During - how was the migration and settling process
-- and after - how did the population integrate and change its new home 
+- and after - how did the population integrate and change its new home
 
-### Colour palette
+## UX Design
+
+### Strategy plane
+
+- UX design aims to create intuitive, efficient, and enjoyable user experiences by understanding user needs and behaviors. So the needs of the user, website/organization owner should guide the design of this project.
+
+#### User
+- Find fact based information on the topic
+- Have a chronologial understanding of how events unfolded
+- Have references to base their research
+- Find other useful pages on the topic with a different scope
+- Understand what led to the Japanese migration in Brazil
+- Understand what is the current state of said migration
+- Get in contact with other with similar interest
+
+#### Website/Organization owner
+- Inform people about the topic in a suscint manner
+- Connect users who share a common interest in the topic among themselves
+- Form a list of said users for future events and marketing
+
+### Scope plane
+Within the scope of this project, the website should:
+- Have a consistent layout across different devices to create familiarity
+- Provide background information for the first time user
+- Guide the user through the events
+- Provide visual information through historical images
+- Provide the user the possibility to receive news on the topic via a newsletter signed up through a form.
+
+### Strcture plane
+The website's section are highly connected in topic and have a natural flow. For organization purposes, the one page was divided in sections: Historical background, Timeline, Cultural aspects, Subscription and References.
+
+#### Navigation
+
+- To facilitate navigation, the navigation bar contains links to jump to different section. The navigation bar remains visible at all times.
+
+#### Historical background
+
+- Short text about the situation in Japan before 1908.
+- Short text about the situtation in Brazil before 1908.
+- Historical image illustrating both texts.
+
+#### Timeline
+- Events separated in time windows.
+- Short text and image for each event.
+- Connecting element between events displaying flow of time.
+
+#### Culture
+- Short texts about the current state of the Japanese-Brazilian population and their influence.
+- Divided in area of their major influence: cuisine, art and sports.
+- Images to illustrate each area
+
+#### Subscription
+- Short text explaining what's included in the newsletter.
+- Form that collects first and last name, email and language preference of users.
+
+#### References
+- Simple numbered list with links to external sources.
+
+#### Footer
+- Links to external website related to the topic.
+
+### Skeleton plane
+
+- When viewed on a laptop and desktop screen, the project's design alternates sides of images and text to keep the flow more dynamic. There is a increasing breathing space on the sides of the page as the screen sizes grows.
+
+
+#### Banner and historical background wireframe
+
+![Wireframe of the top of the page, including banner and historical background section](docs/wireframes/wireframe-banner.png)
+
+#### Timeline
+
+![Wireframe of timeline section](docs/wireframes/wireframe-timeline.png)
+
+#### Cultural aspects
+
+![Wireframe of cultural aspects section](docs/wireframes/wireframe-culture.png)
+
+#### Subcription
+
+![Wireframe of subscription section](docs/wireframes/wireframe-subscribe.png)
+
+- When viewed on a cellphone and tablet, images and text are alternated vertically.
+
+![Wireframe of cultural aspects section on mobile screen](docs/wireframes/wireframe-mobile-culture.png)
+
+![Wireframe of timeline section on mobile screen](docs/wireframes/wireframe-mobile-timeline.png)
+
+### Surface plane
+
+#### Colour palette
 - The colour scheme for this project was chosen to create uniformity and simplicity, at the same time keeping a high contrast ratio between text and background.
-- The original idea of combining colours from both countries' flags did not work well for they were highly saturated and didn't relate well. So a wine colour was chosen instead of the intense pure red of the Japanese flag and a light blue  instead of the vivid blue of the Brazilian flag.
+- The original idea of combining colours from both countries' flags did not work well for they were highly saturated and didn't relate well. So a wine colour was chosen instead of the intense pure red of the Japanese flag and a light blue instead of the vivid navy blue of the Brazilian flag.
 
 <div align="center">
 
@@ -17,7 +107,7 @@ The website will be useful to understand:
 
 </div>
 
-### Favicon
+#### Favicon
 - The favicon was created by combining both countries' flag for easy identification, to stay on theme and visually clear in small sizes.
 
 <div align="center">
@@ -25,6 +115,13 @@ The website will be useful to understand:
 ![Square favicon display half of the Brazilian and half of the Japanese flag](docs/android-chrome-192x192.png)
 
 </div>
+
+#### Fonts
+- The fonts used in this projects were:
+    - Roboto
+    - Roboto Condensed
+
+These fonts provide comfortable reading and fit titles and paragraphs well. 
 
 ## Features
 
