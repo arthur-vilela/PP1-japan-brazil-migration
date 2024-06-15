@@ -281,11 +281,20 @@ These fonts provide comfortable reading and fit titles and paragraphs well.
      ![Screenshot of W3C website indicating no errors found on this project](docs/css-validation.png)
 
 ### Accessibility
-- Lighthouse in devtools indicated a high accessibility score
-![Screenshot of Lighthouse score results displaying 100% in Accessibility](docs/screenshot-lighthouse.png)
+- Lighthouse in devtools indicated a high accessibility score.
+- Performance score varied when analysing  the `mobile` or `desktop` versions.
+
+#### Mobile
+
+![Screenshot of Lighthouse score results displaying 100% in Accessibility and 85% in Performance](docs/lighthouse-mobile.png)
+
+#### Desktop
+
+![Screenshot of Lighthouse score results displaying 100% in Accessibility and 99% in Performance](docs/lighthouse-desktop.png)
+
 - At first try, it indicated a 66% "Performance" score, which was later increased. The low performance was mainly due to large image sizes
     - The banner image was the main responsible for slow loading time.
-    - The banner image was subsequently compressed without visible visual quality loss and replaced in the assets folder.
+    - The banner image was subsequently compressed without major visual quality loss and replaced in the assets folder.
 
     ![Screenshot of Lighthouse score results displaying 66% in Performance](docs/lighthouse-low-performance.png)
 
