@@ -245,9 +245,13 @@ These fonts provide comfortable reading and fit titles and paragraphs well.
 - Solved bugs
     - After the first deployment, I noticed the placeholder in "First name" input field displayed "Last name".
     - I corrected the placeholder value in the HTML file to fix the problem.
+    
     ![Screenshot of the form section displaying "Last name" as placeholder for the "First name" input](docs/error-form.png)
+
     - Banner image didn't load after substituting the file for a compressed version
+
     ![Screenshot of the main page without the banner image](docs/error-banner.png)
+
     - I corrected the [file path on the CSS file](https://github.com/arthur-vilela/PP1-japan-brazil-migration/blob/7cda0a09f16a1a8ba29f5660240882fa9fba8994/assets/css/style.css#L76), which solved the issue
 
         ```
